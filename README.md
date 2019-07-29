@@ -10,5 +10,8 @@
 ## Kafka
 > http://kafka.apache.org
 
-### Book
-* [Kafka: The Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
+* Book
+    * [Kafka: The Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
+
+## Oozie
+> http://oozie.apache.org/
