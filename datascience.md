@@ -70,3 +70,8 @@
 * As mentioned at the end of Chapter 9, pandas is probably the primary Python tool for cleaning, munging, manipulating, and working with data. All the examples we did by hand in this chapter could be done much more simply using pandas. [Python for Data Analysis](https://learning.oreilly.com/library/view/python-for-data/9781491957653/) (O’Reilly), by Wes McKinney, is probably the best way to learn pandas.
 
 * scikit-learn has a wide variety of [matrix decomposition](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition) functions, including PCA.
+
+## 11.Machine Learning
+* The Coursera [Machine Learning](https://www.coursera.org/course/ml) course is the original MOOC and is a good place to get a deeper understanding of the basics of machine learning.
+
+* *The Elements of Statistical Learning*, by Jerome H. Friedman, Robert Tibshirani, and Trevor Hastie (Springer), is a somewhat canonical textbook that can be [downloaded online for free](http://stanford.io/1ycOXbo). But be warned: it’s very mathy.
