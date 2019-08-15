@@ -90,3 +90,8 @@
 * scikit-learn has a [linear_model module](https://scikit-learn.org/stable/modules/linear_model.html) that provides a LinearRegression model similar to ours, as well as ridge regression, lasso regression, and other types of regularization.
 
 * [Statsmodels](https://www.statsmodels.org/) is another Python module that contains (among other things) linear regression models.
+
+## 16.Logistic Regression
+* scikit-learn has modules for both [logistic regression](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression) and [support vector machines](https://scikit-learn.org/stable/modules/svm.html).
+
+* [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) is the support vector machine implementation that scikit-learn is using behind the scenes. Its website has a variety of useful documentation about support vector machines.
