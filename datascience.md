@@ -78,3 +78,8 @@
 
 ## 12.k-Nearest Neighbors
 * scikit-learn has many [nearest neighbor](https://scikit-learn.org/stable/modules/neighbors.html) models.
+
+## 13.Naive Bayes
+* Paul Graham’s articles “[A Plan for Spam](http://www.paulgraham.com/spam.html)” and “[Better Bayesian Filtering](http://www.paulgraham.com/better.html)” are interesting and give more insight into the ideas behind building spam filters.
+
+* [scikit-learn](https://scikit-learn.org/stable/modules/naive_bayes.html) contains a **BernoulliNB** model that implements the same Naive Bayes algorithm we implemented here, as well as other variations on the model.
