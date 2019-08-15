@@ -95,3 +95,10 @@
 * scikit-learn has modules for both [logistic regression](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression) and [support vector machines](https://scikit-learn.org/stable/modules/svm.html).
 
 * [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) is the support vector machine implementation that scikit-learn is using behind the scenes. Its website has a variety of useful documentation about support vector machines.
+
+## 17.Decision Trees
+* scikit-learn has many [decision tree](https://scikit-learn.org/stable/modules/tree.html) models. It also has an [ensemble](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.ensemble) module that includes a **RandomForestClassifier** as well as other ensemble methods.
+
+* [XGBoost](https://xgboost.ai/) is a library for training *gradient boosted* decision trees that tends to win a lot of Kaggle-style machine learning competitions.
+
+* We’ve barely scratched the surface of decision trees and their algorithms. [Wikipedia](https://en.wikipedia.org/wiki/Decision_tree_learning) is a good starting point for broader exploration.
