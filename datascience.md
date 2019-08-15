@@ -53,3 +53,8 @@
 * We’ve barely scratched the surface of what you should know about statistical inference. The books recommended at the end of Chapter 5 go into a lot more detail.
 
 * Coursera offers a [Data Analysis and Statistical Inference](https://www.coursera.org/course/statistics) course that covers many of these topics.
+
+## 8.Gradient Descent
+* At this point, you’re undoubtedly sick of me recommending that you read textbooks. If it’s any consolation, [Active Calculus 1.0](https://scholarworks.gvsu.edu/books/10/), by Matthew Boelkins, David Austin, and Steven Schlicker (Grand Valley State University Libraries), seems nicer than the calculus textbooks I learned from.
+
+* Sebastian Ruder has an [epic blog post](http://ruder.io/optimizing-gradient-descent/index.html) comparing gradient descent and its many variants.
