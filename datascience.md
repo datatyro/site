@@ -48,3 +48,8 @@
 * [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html) contains PDF and CDF functions for most of the popular probability distributions.
 
 * Remember how, at the end of Chapter 5, I said that it would be a good idea to study a statistics textbook? It would also be a good idea to study a probability textbook. The best one I know that’s available online is [Introduction to Probability](http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/book.html), by Charles M. Grinstead and J. Laurie Snell (American Mathematical Society).
+
+## 7.Hypothesis and Inference
+* We’ve barely scratched the surface of what you should know about statistical inference. The books recommended at the end of Chapter 5 go into a lot more detail.
+
+* Coursera offers a [Data Analysis and Statistical Inference](https://www.coursera.org/course/statistics) course that covers many of these topics.
