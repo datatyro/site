@@ -112,9 +112,9 @@ Deep learning is really hot right now, and in this chapter we barely scratched i
 
    * The canonical textbook [Deep Learning](https://www.deeplearningbook.org/), by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (MIT Press), is freely available online. It is very good, but it involves quite a bit of mathematics.
 
-    * Francois Chollet’s [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) (Manning) is a great introduction to the Keras library, after which our deep learning library is sort of patterned.
+   * Francois Chollet’s [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) (Manning) is a great introduction to the Keras library, after which our deep learning library is sort of patterned.
 
-    * I myself mostly use [PyTorch](https://pytorch.org/) for deep learning. Its website has lots of documentation and tutorials.
+   * I myself mostly use [PyTorch](https://pytorch.org/) for deep learning. Its website has lots of documentation and tutorials.
 
 ## 20.Clustering
 * scikit-learn has an entire module, [sklearn.cluster](http://scikit-learn.org/stable/modules/clustering.html), that contains several clustering algorithms including **KMeans** and the Ward hierarchical clustering algorithm (which uses a different criterion for merging clusters than ours did).
