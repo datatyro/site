@@ -58,3 +58,10 @@
 * At this point, you’re undoubtedly sick of me recommending that you read textbooks. If it’s any consolation, [Active Calculus 1.0](https://scholarworks.gvsu.edu/books/10/), by Matthew Boelkins, David Austin, and Steven Schlicker (Grand Valley State University Libraries), seems nicer than the calculus textbooks I learned from.
 
 * Sebastian Ruder has an [epic blog post](http://ruder.io/optimizing-gradient-descent/index.html) comparing gradient descent and its many variants.
+
+## 9.Getting Data
+* [pandas](http://pandas.pydata.org/) is the primary library that data science types use for working with—and, in particular, importing—data.
+
+* [Scrapy](http://scrapy.org/) is a full-featured library for building complicated web scrapers that do things like follow unknown links.
+
+* [Kaggle](https://www.kaggle.com/datasets) hosts a large collection of datasets.
