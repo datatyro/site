@@ -43,3 +43,8 @@
     * [OnlineStatBook](http://onlinestatbook.com/), by David Lane (Rice University)
 
     * [Introductory Statistics](https://openstax.org/details/introductory-statistics), by OpenStax (OpenStax College)
+
+## 6.Probability
+* [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html) contains PDF and CDF functions for most of the popular probability distributions.
+
+* Remember how, at the end of Chapter 5, I said that it would be a good idea to study a statistics textbook? It would also be a good idea to study a probability textbook. The best one I know that’s available online is [Introduction to Probability](http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/book.html), by Charles M. Grinstead and J. Laurie Snell (American Mathematical Society).
