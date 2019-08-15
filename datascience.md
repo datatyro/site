@@ -83,3 +83,10 @@
 * Paul Graham’s articles “[A Plan for Spam](http://www.paulgraham.com/spam.html)” and “[Better Bayesian Filtering](http://www.paulgraham.com/better.html)” are interesting and give more insight into the ideas behind building spam filters.
 
 * [scikit-learn](https://scikit-learn.org/stable/modules/naive_bayes.html) contains a **BernoulliNB** model that implements the same Naive Bayes algorithm we implemented here, as well as other variations on the model.
+
+## 15.Multiple Regression
+* Regression has a rich and expansive theory behind it. This is another place where you should consider reading a textbook, or at least a lot of Wikipedia articles.
+
+* scikit-learn has a [linear_model module](https://scikit-learn.org/stable/modules/linear_model.html) that provides a LinearRegression model similar to ours, as well as ridge regression, lasso regression, and other types of regularization.
+
+* [Statsmodels](https://www.statsmodels.org/) is another Python module that contains (among other things) linear regression models.
