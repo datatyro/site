@@ -65,3 +65,8 @@
 * [Scrapy](http://scrapy.org/) is a full-featured library for building complicated web scrapers that do things like follow unknown links.
 
 * [Kaggle](https://www.kaggle.com/datasets) hosts a large collection of datasets.
+
+## 10.Working with Data
+* As mentioned at the end of Chapter 9, pandas is probably the primary Python tool for cleaning, munging, manipulating, and working with data. All the examples we did by hand in this chapter could be done much more simply using pandas. [Python for Data Analysis](https://learning.oreilly.com/library/view/python-for-data/9781491957653/) (O’Reilly), by Wes McKinney, is probably the best way to learn pandas.
+
+* scikit-learn has a wide variety of [matrix decomposition](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition) functions, including PCA.
