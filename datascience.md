@@ -131,3 +131,9 @@ Deep learning is really hot right now, and in this chapter we barely scratched i
 
 - My day job involves building [AllenNLP](https://allennlp.org/), a Python library for doing NLP research. (At least, as of the time this book went to press, it did.) The library is quite beyond the scope of this book, but you might still find it interesting, and it has a cool interactive demo of many state-of-the-art NLP models.
 
+## 22.Network Analysis
+
+- There are [many other notions of centrality](http://en.wikipedia.org/wiki/Centrality) besides the ones we used (although the ones we used are pretty much the most popular ones).
+- [NetworkX](http://networkx.github.io/) is a Python library for network analysis. It has functions for computing centralities and for visualizing graphs.
+- [Gephi](https://gephi.org/) is a love-it/hate-it GUI-based network visualization tool.
+
