@@ -1,6 +1,6 @@
 # Data Tyro
 ## Data Science
-- [Datascience](datascience.md)
+- [Data Science From Scratch](datascience/fromscratch.md)
 
 ## Platform
 - [Cloudera](https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html)
