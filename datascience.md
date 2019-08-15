@@ -102,3 +102,6 @@
 * [XGBoost](https://xgboost.ai/) is a library for training *gradient boosted* decision trees that tends to win a lot of Kaggle-style machine learning competitions.
 
 * We’ve barely scratched the surface of decision trees and their algorithms. [Wikipedia](https://en.wikipedia.org/wiki/Decision_tree_learning) is a good starting point for broader exploration.
+
+## 18.Neural Networks
+* My blog post on “[Fizz Buzz in Tensorflow](http://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/)” is pretty good.
