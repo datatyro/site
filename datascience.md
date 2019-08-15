@@ -32,3 +32,14 @@
     * If you are feeling adventurous, [Linear Algebra Done Wrong](https://www.math.brown.edu/~treil/papers/LADW/LADW_2017-09-04.pdf), by Sergei Treil (Brown University), is a more advanced introduction.
 
 * All of the machinery we built in this chapter you get for free if you use [NumPy](http://www.numpy.org/). (You get a lot more too, including much better performance.)
+
+## 5.Statistics
+* [SciPy](https://www.scipy.org/), [pandas](http://pandas.pydata.org/), and [StatsModels](http://www.statsmodels.org/) all come with a wide variety of statistical functions.
+
+* Statistics is *important*. (Or maybe statistics are important?) If you want to be a better data scientist, it would be a good idea to read a statistics textbook. Many are freely available online, including:
+
+    * [Introductory Statistics](https://open.umn.edu/opentextbooks/textbooks/introductory-statistics), by Douglas Shafer and Zhiyi Zhang (Saylor Foundation)
+
+    * [OnlineStatBook](http://onlinestatbook.com/), by David Lane (Rice University)
+
+    * [Introductory Statistics](https://openstax.org/details/introductory-statistics), by OpenStax (OpenStax College)
