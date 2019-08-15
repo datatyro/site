@@ -75,3 +75,6 @@
 * The Coursera [Machine Learning](https://www.coursera.org/course/ml) course is the original MOOC and is a good place to get a deeper understanding of the basics of machine learning.
 
 * *The Elements of Statistical Learning*, by Jerome H. Friedman, Robert Tibshirani, and Trevor Hastie (Springer), is a somewhat canonical textbook that can be [downloaded online for free](http://stanford.io/1ycOXbo). But be warned: it’s very mathy.
+
+## 12.k-Nearest Neighbors
+* scikit-learn has many [nearest neighbor](https://scikit-learn.org/stable/modules/neighbors.html) models.
