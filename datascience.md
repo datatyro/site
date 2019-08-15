@@ -137,3 +137,109 @@ Deep learning is really hot right now, and in this chapter we barely scratched i
 - [NetworkX](http://networkx.github.io/) is a Python library for network analysis. It has functions for computing centralities and for visualizing graphs.
 - [Gephi](https://gephi.org/) is a love-it/hate-it GUI-based network visualization tool.
 
+## 23.Recommender Systems
+
+- [Surprise](http://surpriselib.com/) is a Python library for “building and analyzing recommender systems” that seems reasonably popular and up-to-date.
+- The [Netflix Prize](http://www.netflixprize.com/) was a somewhat famous competition to build a better system to recommend movies to Netflix users.
+
+## 24. Databases and SQL
+
+- If you’d like to download a relational database to play with, [SQLite](http://www.sqlite.org/) is fast and tiny, while [MySQL](http://www.mysql.com/) and[PostgreSQL](http://www.postgresql.org/) are larger and featureful. All are free and have lots of documentation.
+- If you want to explore NoSQL, [MongoDB](http://www.mongodb.org/) is very simple to get started with, which can be both a blessing and somewhat of a curse. It also has pretty good documentation.
+- The [Wikipedia article on NoSQL](http://en.wikipedia.org/wiki/NoSQL) almost certainly now contains links to databases that didn’t even exist when this book was written.
+
+## 25.MapReduce
+
+- Like I said, MapReduce feels a lot less popular now than it did when I wrote the first edition. It’s probably not worth investing a ton of your time.
+- That said, the most widely used MapReduce system is [Hadoop](http://hadoop.apache.org/). There are various commercial and noncommercial distributions and a huge ecosystem of Hadoop-related tools.
+- Amazon.com offers an [Elastic MapReduce](http://aws.amazon.com/elasticmapreduce/) service that’s probably easier than setting up your own cluster.
+- Hadoop jobs are typically high-latency, which makes them a poor choice for “real-time” analytics. A popular choice for these workloads is [Spark](http://spark.apache.org/), which can be MapReduce-y.
+
+## 26. Data Ethics
+
+- There is no shortage of people professing important thoughts about data ethics. Searching on Twitter (or your favorite news site) is probably the best way to find out about the most current data ethics controversy.
+- If you want something slightly more practical, Mike Loukides, Hilary Mason, and DJ Patil have written a short ebook, [*Ethics and Data Science*](https://www.oreilly.com/library/view/ethics-and-data/9781492043898/), on putting data ethics into practice, which I am honor-bound to recommend on account of Mike being the person who agreed to publish *Data Science from Scratch* way back in 2014. (Exercise: is this ethical of me?)
+
+## 27. Go Forth and Do Data Science
+
+### IPython
+
+I mentioned [IPython](http://ipython.org/) earlier in the book. It provides a shell with far more functionality than the standard Python shell, and it adds “magic functions” that allow you to (among other things) easily copy and paste code (which is normally complicated by the combination of blank lines and whitespace formatting) and run scripts from within the shell.
+
+Mastering IPython will make your life far easier. (Even learning just a little bit of IPython will make your life a lot easier.)
+
+###### NOTE
+
+> In the first edition, I also recommended that you learn about the IPython (now Jupyter) Notebook, a computational environment that allows you to combine text, live Python code, and visualizations.
+>
+> I’ve since [become a notebook skeptic](https://twitter.com/joelgrus/status/1033035196428378113), as I find that they confuse beginners and encourage bad coding practices. (I have many other reasons too.) You will surely receive plenty of encouragement to use them from people who aren’t me, so just remember that I’m the dissenting voice.
+
+### Mathematics
+
+Throughout this book, we dabbled in linear algebra ([Chapter 4](https://learning.oreilly.com/library/view/data-science-from/9781492041122/ch04.html#linear_algebra)), statistics ([Chapter 5](https://learning.oreilly.com/library/view/data-science-from/9781492041122/ch05.html#statistics)), probability ([Chapter 6](https://learning.oreilly.com/library/view/data-science-from/9781492041122/ch06.html#probability)), and various aspects of machine learning.
+
+To be a good data scientist, you should know much more about these topics, and I encourage you to give each of them a more in-depth study, using the textbooks recommended at the ends of the chapters, your own preferred textbooks, online courses, or even real-life courses.
+
+### Not from Scratch
+
+Implementing things “from scratch” is great for understanding how they work. But it’s generally not great for performance (unless you’re implementing them specifically with performance in mind), ease of use, rapid prototyping, or error handling.
+
+In practice, you’ll want to use well-designed libraries that solidly implement the fundamentals. My original proposal for this book involved a second “now let’s learn the libraries” half that O’Reilly, thankfully, vetoed. Since the first edition came out, Jake VanderPlas has written the [*Python Data Science Handbook*](http://shop.oreilly.com/product/0636920034919.do) (O’Reilly), which is a good introduction to the relevant libraries and would be a good book for you to read next.
+
+### NumPy
+
+[NumPy](http://www.numpy.org/) (for “Numeric Python”) provides facilities for doing “real” scientific computing. It features arrays that perform better than our `list`-vectors, matrices that perform better than our `list`-of-`list`-matrices, and lots of numeric functions for working with them.
+
+NumPy is a building block for many other libraries, which makes it especially valuable to know.
+
+### pandas
+
+[pandas](http://pandas.pydata.org/) provides additional data structures for working with datasets in Python. Its primary abstraction is the `DataFrame`, which is conceptually similar to the NotQuiteABase `Table` class we constructed in [Chapter 24](https://learning.oreilly.com/library/view/data-science-from/9781492041122/ch24.html#databases), but with much more functionality and better performance.
+
+If you’re going to use Python to munge, slice, group, and manipulate datasets, pandas is an invaluable tool.
+
+### scikit-learn
+
+[scikit-learn](http://scikit-learn.org/) is probably the most popular library for doing machine learning in Python. It contains all the models we’ve implemented and many more that we haven’t. On a real problem, you’d never build a decision tree from scratch; you’d let scikit-learn do the heavy lifting. On a real problem, you’d never write an optimization algorithm by hand; you’d count on scikit-learn to already be using a really good one.
+
+Its documentation contains [many, many examples](http://scikit-learn.org/stable/auto_examples/) of what it can do (and, more generally, what machine learning can do).
+
+### Visualization
+
+The matplotlib charts we’ve been creating have been clean and functional but not particularly stylish (and not at all interactive). If you want to get deeper into data visualization, you have several options.
+
+The first is to further explore matplotlib, only a handful of whose features we’ve actually covered. Its website contains many [examples](http://matplotlib.org/examples/) of its functionality and a [gallery](http://matplotlib.org/gallery.html) of some of the more interesting ones. If you want to create static visualizations (say, for printing in a book), this is probably your best next step.
+
+You should also check out [seaborn](https://seaborn.pydata.org/), which is a library that (among other things) makes matplotlib more attractive.
+
+If you’d like to create *interactive* visualizations that you can share on the web, the obvious choice is probably [D3.js](http://d3js.org/), a JavaScript library for creating “data-driven documents” (those are the three Ds). Even if you don’t know much JavaScript, it’s often possible to crib examples from the [D3 gallery](https://github.com/mbostock/d3/wiki/Gallery) and tweak them to work with your data. (Good data scientists copy from the D3 gallery; great data scientists *steal* from the D3 gallery.)
+
+Even if you have no interest in D3, just browsing the gallery is itself a pretty incredible education in data visualization.
+
+[Bokeh](http://bokeh.pydata.org/) is a project that brings D3-style functionality into Python.
+
+### R
+
+Although you can totally get away with not learning [R](http://www.r-project.org/), a lot of data scientists and data science projects use it, so it’s worth getting at least familiar with it.
+
+In part, this is so that you can understand people’s R-based blog posts and examples and code; in part, this is to help you better appreciate the (comparatively) clean elegance of Python; and in part, this is to help you be a more informed participant in the never-ending “R versus Python” flamewars.
+
+### Deep Learning
+
+You can be a data scientist without doing deep learning, but you can’t be a *trendy* data scientist without doing deep learning.
+
+The two most popular deep learning frameworks for Python are [TensorFlow](https://www.tensorflow.org/) (created by Google) and [PyTorch](https://pytorch.org/)(created by Facebook). The internet is full of tutorials for them that range from wonderful to awful.
+
+TensorFlow is older and more widely used, but PyTorch is (in my opinion) much easier to use and (in particular) much more beginner-friendly. I prefer (and recommend) PyTorch, but—as they say—no one ever got fired for choosing TensorFlow.
+
+### Find Data
+
+If you’re doing data science as part of your job, you’ll most likely get the data as part of your job (although not necessarily). What if you’re doing data science for fun? Data is everywhere, but here are some starting points:
+
+- [Data.gov](http://www.data.gov/) is the government’s open data portal. If you want data on anything that has to do with the government (which seems to be most things these days), it’s a good place to start.
+- Reddit has a couple of forums, [r/datasets](http://www.reddit.com/r/datasets) and [r/data](http://www.reddit.com/r/data), that are places to both ask for and discover data.
+- Amazon.com maintains a collection of [public datasets](http://aws.amazon.com/public-data-sets/) that they’d like you to analyze using their products (but that you can analyze with whatever products you want).
+- Robb Seaton has a quirky list of curated datasets [on his blog](http://rs.io/100-interesting-data-sets-for-statistics/).
+- [Kaggle](https://www.kaggle.com/) is a site that holds data science competitions. I never managed to get into it (I don’t have much of a competitive nature when it comes to data science), but you might. They host a lot of datasets.
+- Google has a newish [Dataset Search](https://toolbox.google.com/datasetsearch) that lets you (you guessed it) search for datasets.
+
