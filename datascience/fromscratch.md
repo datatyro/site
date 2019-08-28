@@ -1,5 +1,5 @@
 # Data Science from Scratch
-> You can get this book from [there](https://www.oreilly.com/library/view/data-science-from/9781492041122/).
+> You can get this book from [here](https://www.oreilly.com/library/view/data-science-from/9781492041122/).
 
 > This page redords the secion of  `Further Exploration Content`
 
